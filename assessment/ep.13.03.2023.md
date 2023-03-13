@@ -10,7 +10,7 @@ Creați un repozitoriu privat `ep-13.03.2023` pe Github. Deschideți acces pentr
 
 Elaborați o funcție care primește ca parametru o propoziție și returnează această propoziție transformată - ultima literă a fiecărui cuvînt va fi majusculă. Rezultatul va fi afișat în consolă.
 
-Exemplu: uppercaseFirstLetter("astazi este joi") va returna "astazI estE joI" 
+Exemplu: uppercaseLastLetter("astazi este joi") va returna "astazI estE joI" 
 
 ### - Sarcina 3 **[4 puncte]**
 
@@ -27,7 +27,7 @@ Creați un masiv care va conține datele despre o listă de Servicii. Fiecare se
 - durata(în ore)
 
 Creați 2 metode:
-- findHigherPricePerHour - care va găsi produsul cu cel mai mic preț
+- findHigherPricePerHour - care va găsi serviciul cu cel mai mare tarif pe ora
 
 Exemplu:
 La intrare:
