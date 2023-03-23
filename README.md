@@ -9,9 +9,11 @@ Link to video conference: https://meet.google.com/bxo-ffsm-qfn
 - Java Script Language https://javascript.info/
 
 # Tools
+- https://nodejs.org/en
 ## Code editors
 - Code Sandbox Online Editor https://codesandbox.io/
 - Visual Studio Code Offline Editor https://code.visualstudio.com/
+
 
 ## Code version control
 - Git https://git-scm.com/
@@ -20,3 +22,8 @@ Link to video conference: https://meet.google.com/bxo-ffsm-qfn
 - Angular https://angular.io/
 - React https://reactjs.org/
 - Vue https://vuejs.org/
+
+## For backend
+- https://strapi.io/
+- https://www.postman.com/
+- https://insomnia.rest/

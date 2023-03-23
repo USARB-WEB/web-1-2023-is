@@ -1,0 +1,6 @@
+
+#products div span{
+    font-weight: bold;
+    display: block;
+    border: 1px solid gray;
+}
