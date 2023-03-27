@@ -1,0 +1,42 @@
+header{
+  background-color: aquamarine;
+  height: 5em;
+  font-size: 23px;
+  text-align: center;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a{
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: aqua;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 10em auto;
+}
+
+main aside{
+  background-color: bisque;
+}
+
+main section{
+  background-color: azure;
+}
+
+footer{
+  background-color: blue;
+  height: 5em;
+  font-size: 23px;
+  text-align: center;
+}
