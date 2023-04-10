@@ -5,7 +5,7 @@ export default function Header(){
             <div>HEADER</div>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="#">Photos</Link>
+                <Link to="/products">Products</Link>
                 <Link href="#">Video</Link>
                 <Link href="#">Blog</Link>
                 <Link to="/contacts">Contacts</Link>

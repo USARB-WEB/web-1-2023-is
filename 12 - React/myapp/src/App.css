@@ -40,3 +40,54 @@ footer{
   font-size: 23px;
   text-align: center;
 }
+
+.products-list .table-row{
+  display: grid;
+  grid-template-columns: 15em auto 5em;
+}
+
+.products-list div div{
+  border: 1px solid gray;
+}
+
+#products-page .actions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-create{
+  margin: 0 auto;
+  width: 20em;
+}
+
+.product-create div{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.product-create div *{
+  margin-left: 1em;
+}
+
+.alert-dialog{
+  width: 20em;
+  height: 4em;
+  position: fixed;
+  border: 1px solid gray;
+  background-color: aqua;
+  left: calc(50%-10em);
+  top: calc(50%-2em);
+  z-index: 11;
+}
+
+.page-dimming{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: 10;
+}

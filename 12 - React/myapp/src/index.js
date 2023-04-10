@@ -9,6 +9,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import IndexPage from './pages/IndexPage';
 import ContactsPage from './pages/ContactsPage';
+import ProductsListPage from './pages/products/List';
+import ProductsCreatePage from './pages/products/Create';
 
 
 const router = createBrowserRouter([
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
     path: "/contacts",
     element: <ContactsPage/>,
   },
+  {
+    path: '/products',
+    element: <ProductsListPage/>
+  },
+  {
+    path: '/products/create',
+    element: <ProductsCreatePage/>
+  }
 ]);
 
 
